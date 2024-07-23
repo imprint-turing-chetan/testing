@@ -19,6 +19,6 @@ with DAG(
     catchup=False,
 ) as dag:
     start = DummyOperator(task_id='start')
-    end = DummyOperator(task_id='end')
+    end = DummyOperator(task_id='end'
 
     start >> end
