@@ -25,7 +25,7 @@ jobs:
       - name: Install dependencies
         run: |
           python3 -m pip install --upgrade pip
-          pip3 install -r ./mwaa/requirements/requirements.txt
+          pip3 install -r ./test_ci/requirements.txt
       - name: Pipeline syntax check for data_dag
         run: |
           for file in $(git diff --name-only HEAD HEAD~1 -- ./test_ci/*.py); do
