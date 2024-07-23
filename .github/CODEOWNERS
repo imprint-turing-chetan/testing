@@ -1,0 +1,8 @@
+* @Imprint-Tech/data-platform
+/mwaa/data_sharing_dags/ @Imprint-Tech/experience @Imprint-Tech/servicing
+/mwaa/dags/ @Imprint-Tech/data-analytics-team @Imprint-Tech/data-platform
+/mwaa/edw_dags/ @Imprint-Tech/data-analytics-team @Imprint-Tech/data-platform
+/mwaa/data_dags/loan_tape_report_dag/ddl/loan_tape.ddl @Imprint-Tech/data-analytics-team @Imprint-Tech/data-platform
+/mwaa/edw_dags/dbt/edw/models/ @Imprint-Tech/data-analytics-team @Imprint-Tech/contractors-datatonic-reviewers @Imprint-Tech/data-platform
+/mwaa/edw_dags/dbt/edw/models/docs/ @Imprint-Tech/data-analytics-team  @Imprint-Tech/contractors-datatonic-reviewers @Imprint-Tech/data-platform
+/mwaa/edw_dags/dbt/edw/models/staging/ @Imprint-Tech/data-analytics-team  @Imprint-Tech/contractors-datatonic-reviewers @Imprint-Tech/data-platform
