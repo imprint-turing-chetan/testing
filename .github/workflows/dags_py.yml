@@ -13,7 +13,7 @@ env:
 
 jobs:
   syntax-check-data_dag:
-    if: contains(github.event.pull_request.files.*.filename, '/mwaa/data_dags/')
+    if: contains(github.event.pull_request.files.*.filename, 'mwaa/data_dags/')
     runs-on: ubuntu-latest
     steps:
       - name: Check out code
