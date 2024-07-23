@@ -3,7 +3,7 @@ name: Run Airflow Dags Python Syntax Check
 on:
   pull_request:
     paths:
-      - '/mwaa/data_dags/**/*.py'
+      - 'mwaa/data_dags/**/*.py'
 
 env:
   AIRFLOW_VAR_CRADLE_CLUSTER_ID: j-xxxxxx
@@ -25,7 +25,7 @@ jobs:
       - name: Install dependencies
         run: |
           python3 -m pip install --upgrade pip
-          pip3 install -r ./test_ci/requirements.txt
+          pip3 install -r ./mwaa/requirements.txt
       - name: Pipeline syntax check for data_dag
         run: |
           git diff --name-only HEAD^ HEAD | grep '\.py$' | while read file; do
