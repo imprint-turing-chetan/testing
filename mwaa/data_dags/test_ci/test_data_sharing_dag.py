@@ -13,7 +13,7 @@ default_args = {
 
 
 with DAG(
-    dag_id='test_data_dag',
+    dag_id='test_data_dag_test',
     default_args=default_args,
     schedule_interval=None,
     catchup=False,
