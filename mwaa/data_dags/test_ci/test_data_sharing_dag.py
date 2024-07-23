@@ -11,13 +11,14 @@ default_args = {
     'email_on_retry': False,
 }
 
+
 with DAG(
-    dag_id='test_data_dag',
+    dag_id='test_data_dag_test',
     default_args=default_args,
     schedule_interval=None,
     catchup=False,
 ) as dag:
     start = DummyOperator(task_id='start')
-    end = DummyOperator(task_id='end')
+    end = DummyOperator(task_id='end'
 
     start >> end
