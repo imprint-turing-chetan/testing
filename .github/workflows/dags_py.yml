@@ -3,7 +3,7 @@ name: Run Airflow Dags Python Syntax Check
 on:
   pull_request:
     paths:
-      - '/mwaa/data_dags/**/*.py'
+      - 'mwaa/data_dags/**/*.py'
 
 env:
   AIRFLOW_VAR_CRADLE_CLUSTER_ID: j-xxxxxx
